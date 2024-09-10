@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Document</title>
+        <script
+            src="main.js"
+            defer
+        ></script>
+        <link
+            rel="stylesheet"
+            href="main.css"
+        />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/first 2 weeks/mrduck/">Index</a>
+                <a href="/first 2 weeks/mrduck/user.html">User</a>
+                <a href="/first 2 weeks/mrduck/">
+                    <pre>
+                        ,-.
+                        ,--' ~.).
+                      ,'         `.
+                     ; (((__   __)))
+                     ;  ( (#) ( (#)
+                     |   \_/___\_/|
+                    ,"  ,-'    `__".           .
+                   (   ( ._   ____`.)--._        _
+                    `._ `-.`-' \(`-'  _  `-. _,-' `-/`.
+                     ,')   `.`._))  ,' `.   `.  ,','  ;
+                   .'   .    `--'  /     ).   `.      ;
+                  ;      `-       /     '  )         ;
+                  \                       ')       ,'
+                   \                     ,'       ;
+                    \               `~~~'       ,'
+                     `.                      _,'
+                       `.                ,--'
+                         `-._________,--'
+                    </pre>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <form id="signUp">
+                <label>
+                    <span>Username<sup>*</sup></span>
+                    <input
+                        name="username"
+                        type="text"
+                        required
+                    />
+                </label>
+                <label>
+                    <span>Email<sup>*</sup></span>
+                    <input
+                        name="email"
+                        type="email"
+                        required
+                    />
+                </label>
+                <label>
+                    <span>Password<sup>*</sup></span>
+                    <span
+                        ><em
+                            >Must be min. 8 chareters and contain uppercase,
+                            lowercase, letters and symbols</em
+                        ></span
+                    >
+                    <input
+                        name="password"
+                        type="password"
+                        required
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}$"
+                    />
+                </label>
+                <label>
+                    Favorite Color*
+                    <input
+                        name="color"
+                        type="color"
+                        required
+                        value="#0000ff"
+                    />
+                </label>
+                <button>Sign up now</button>
+            </form>
+        </main>
+    </body>
+</html>
